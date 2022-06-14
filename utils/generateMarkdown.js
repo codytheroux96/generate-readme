@@ -21,6 +21,7 @@ const generateReadMe = (data) => {
   { tableOfContents += `\n* [Installation](#installation)\n`;}
   { tableOfContents += `\n* [Usage](#usage)\n`;}
   { tableOfContents += `\n* [Contributors](#contributors)\n`;}
+  { tableOfContents += `\n* [Tests](#tests)\n`;}
   { tableOfContents += `\n* [License](#licenses)\n`;}
   { tableOfContents += `\n* [Questions](#questions)\n`;}
   
@@ -33,6 +34,7 @@ const generateReadMe = (data) => {
   readmetext += `\n## Installation\n${data.installation}\n`;
   readmetext += `\n## Usage\n${data.usage}\n`;
   readmetext += `\n## Contributors\n${data.contributors}\n`;
+  readmetext += `\n## Tests\n${data.tests}\n`;
   readmetext += `\n## License\n This project is covered under the ${data.licenses} license.\n`
   readmetext += `\n## Questions? Please Contact Me\nGithub: https://github.com/${data.github}\n`;
   readmetext += `\nEmail: ${data.email}\n`;

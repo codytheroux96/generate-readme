@@ -33,6 +33,11 @@ const questions = [
         message: "List the collaborators on this project.",
     },
     {
+        type: "input",
+        name: "tests",
+        message: "What are the test instructions for this?",
+    },
+    {
         type: "rawlist",
         name: "licenses",
         message: "Select the license you used for this.",
