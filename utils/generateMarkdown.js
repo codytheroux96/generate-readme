@@ -13,10 +13,10 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 const generateReadMe = (data) => { 
   let tableOfContents = `\n## Table Of Contents \n`
-  { tableOfContents += `\n* [Description](#Description)\n`;}
-  { tableOfContents += `\n* [Installation](#Installation)\n`;}
-  { tableOfContents += `\n* [Usage](#Usage)\n`;}
-  { tableOfContents += `\n* [Contributors](#Contributors)\n`;}
+  { tableOfContents += `\n* [Description](#description)\n`;}
+  { tableOfContents += `\n* [Installation](#installation)\n`;}
+  { tableOfContents += `\n* [Usage](#usage)\n`;}
+  { tableOfContents += `\n* [Contributors](#contributors)\n`;}
   { tableOfContents += `\n* [Questions](#questions)\n`;}
   
 
