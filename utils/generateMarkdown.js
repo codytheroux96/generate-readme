@@ -19,6 +19,7 @@ const generateReadMe = (data) => {
   { tableOfContents += `\n* [Installation](#installation)\n`;}
   { tableOfContents += `\n* [Usage](#usage)\n`;}
   { tableOfContents += `\n* [Contributors](#contributors)\n`;}
+  { tableOfContents += `\n* [License](#licenses)\n`;}
   { tableOfContents += `\n* [Questions](#questions)\n`;}
   
 
