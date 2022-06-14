@@ -15,7 +15,7 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message:"Write a description for your project.",
+        message: "Write a description for your project.",
     },
     {
         type: "input",
@@ -59,7 +59,7 @@ const questions = [
 //after the user answers the prompts it will take the data and put it in the readme in the ouput folder
 function writeToFile(fileName, data) {
     let content = generateReadMe(data);
-    fs.writeFile("./ouput/README.md", content, function (error){
+    fs.writeFile("./ouput/README.md", content, function (error) {
         if (error) {
             return console.log(error)
         }
@@ -71,14 +71,14 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 //this is the initializer function
 function init() {
-    inquirer.prompt(questions).then(function (data){
+    inquirer.prompt(questions).then(function (data) {
         let fileName = "README.md";
         writeToFile(fileName, data)
     });
 }
 
 
-   
+
 
 
 // Function call to initialize app
