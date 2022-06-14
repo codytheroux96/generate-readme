@@ -35,7 +35,7 @@ const generateReadMe = (data) => {
   readmetext += `\n## Usage\n${data.usage}\n`;
   readmetext += `\n## Contributors\n${data.contributors}\n`;
   readmetext += `\n## Testing\n${data.testing}\n`;
-  readmetext += `\n## License\n This project is covered under the ${data.licenses} license.\n`
+  readmetext += `\n## Licenses\n This project is covered under the ${data.licenses} license.\n`
   readmetext += `\n## Questions\n Please contact me using these methods if you have questions!\n\nGithub: https://github.com/${data.github}\n`;
   readmetext += `\nEmail: ${data.email}\n`;
   return readmetext;
