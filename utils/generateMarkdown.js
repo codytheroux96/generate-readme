@@ -14,7 +14,7 @@ function renderLicenseSection(license) {}
 //this is the function that will take in the data from index.js and build where and how it will be displayed in the readme
 const generateReadMe = (data) => { 
   //renders the badge of the license based upon what the user selects and assigns it to the variable "badge"
-  let badge = ` <img src="https://img.shields.io/badge/license-${data.licenses}-goldenrod" alt="badge-${data.licenses}" />`
+  let badge = `\n <img src="https://img.shields.io/badge/license-${data.licenses}-goldenrod" alt="badge-${data.licenses}" /> \n`
   //laying out the table of contents
   let tableOfContents = `\n## Table Of Contents \n`
   { tableOfContents += `\n* [Description](#description)\n`;}
