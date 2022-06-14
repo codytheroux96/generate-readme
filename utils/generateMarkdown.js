@@ -12,13 +12,13 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 const generateReadMe = (data) => { 
-  let readmetext = `# ${data.title}`;
-  readmetext += `\n##Description\n${data.description}`;
-  readmetext += `\n##Installation\n${data.installation}`;
-  readmetext += `\n##Usage\n${data.usage}`;
-  readmetext += `\n##Contributors\n${data.contributors}`;
-  readmetext += `\n##github\n${data.github}`;
-  readmetext += `\n##email\n${data.email}`;
+  let readmetext = `# ${data.title}\n`;
+  readmetext += `\n## Description\n${data.description}\n`;
+  readmetext += `\n## Installation\n${data.installation}\n`;
+  readmetext += `\n## Usage\n${data.usage}\n`;
+  readmetext += `\n## Contributors\n${data.contributors}\n`;
+  readmetext += `\n## Github\n${data.github}\n`;
+  readmetext += `\n## Email\n${data.email}\n`;
   return readmetext;
 }
 
