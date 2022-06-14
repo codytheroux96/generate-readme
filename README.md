@@ -5,6 +5,7 @@
 - [Visuals](#Visuals)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Questions](#questions)
 - [Resources](#resources)
 
 ## Description
@@ -24,6 +25,11 @@
 - You will be prompted by a series of questions that you will need to answer. These questions will be what fills in the parts of your readme that will be generated. 
 - Once you successfully make it through the prompts you will be met with the message "success"
 - The readme with the answers to the prompts you faced will be generated in an output folder and you can view it there.
+
+## Questions
+If you have questions feel free to reach out to me!
+- [Github](https://github.com/codytheroux96)
+- Email: cody.theroux3@gmail.com
 
 ## Resources
 - Repo: [Github Repo](https://github.com/codytheroux96/generate-readme)
