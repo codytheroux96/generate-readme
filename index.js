@@ -4,6 +4,7 @@ const fs = require("fs");
 const generateReadMe = require("./utils/generateMarkdown.js");
 // TODO: Create an array of questions for user input
 
+//These will be the questions the user is prompted with when they run node index.js
 const questions = [
     {
         type: "input",
@@ -44,6 +45,7 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
+//after the user answers the prompts it will take the data and put it in the readme in the ouput folder
 function writeToFile(fileName, data) {
     let content = generateReadMe(data);
     fs.writeFile("./ouput/README.md", content, function (error){
@@ -56,6 +58,7 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
+//this is the initializer function
 function init() {
     inquirer.prompt(questions).then(function (data){
         let fileName = "README.md";

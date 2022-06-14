@@ -11,7 +11,9 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
+//this is the function that will take in the data from index.js and build where and how it will be displayed in the readme
 const generateReadMe = (data) => { 
+  //laying out the table of contents
   let tableOfContents = `\n## Table Of Contents \n`
   { tableOfContents += `\n* [Description](#description)\n`;}
   { tableOfContents += `\n* [Installation](#installation)\n`;}
@@ -20,7 +22,7 @@ const generateReadMe = (data) => {
   { tableOfContents += `\n* [Questions](#questions)\n`;}
   
 
-
+//this iwll be the text displayed in the read me taking the data from the corresponding sections in index.js
   let readmetext = `# ${data.title}\n`;
   readmetext += tableOfContents;
   readmetext += `\n## Description\n${data.description}\n`;
