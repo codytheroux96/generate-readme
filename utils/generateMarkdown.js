@@ -13,6 +13,7 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 //this is the function that will take in the data from index.js and build where and how it will be displayed in the readme
 const generateReadMe = (data) => { 
+  //renders the badge of the license based upon what the user selects and assigns it to the variable "badge"
   let badge = ` <img src="https://img.shields.io/badge/license-${data.licenses}-goldenrod" alt="badge-${data.licenses}" />`
   //laying out the table of contents
   let tableOfContents = `\n## Table Of Contents \n`
@@ -24,7 +25,7 @@ const generateReadMe = (data) => {
   { tableOfContents += `\n* [Questions](#questions)\n`;}
   
 
-//this iwll be the text displayed in the read me taking the data from the corresponding sections in index.js
+//this will be the text displayed in the read me taking the data from the corresponding sections in index.js
   let readmetext = `# ${data.title}\n`;
   readmetext += badge;`\n`;
   readmetext +=  tableOfContents;
