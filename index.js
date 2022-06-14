@@ -35,7 +35,7 @@ const questions = [
     {
         type: "rawlist",
         name: "licenses",
-        message: "select which license you would like to use.",
+        message: "Select which license you would like to use.",
         choices: ["Apache 2.0", "Boost", "BSD3", "BSD2", "ISC"],
     },
     {
