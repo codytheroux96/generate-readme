@@ -54,7 +54,7 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
+
 //after the user answers the prompts it will take the data and put it in the readme in the ouput folder
 function writeToFile(fileName, data) {
     let content = generateReadMe(data);
@@ -67,7 +67,6 @@ function writeToFile(fileName, data) {
 
 }
 
-// TODO: Create a function to initialize app
 //this is the initializer function
 function init() {
     inquirer.prompt(questions).then(function (data) {
